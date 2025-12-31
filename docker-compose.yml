@@ -1,0 +1,56 @@
+#version: "3.7"
+
+networks:
+  wordpress_demo_network:
+    driver: bridge
+
+services:
+  php:
+    build: ./docker/php
+    restart: unless-stopped
+    container_name: wordpress_demo_php
+    tty: true
+    depends_on:
+      - mysql
+    networks:
+      - wordpress_demo_network
+    volumes:
+      - .:/var/www
+    environment:
+        XDEBUG_MODE: debug
+        XDEBUG_CONFIG: client_host=host.docker.internal client_port=9003
+    extra_hosts:
+        - "host.docker.internal:host-gateway"
+
+  nginx:
+    build: ./docker/nginx
+    container_name: wordpress_demo_nginx
+    restart: unless-stopped
+    tty: true
+    depends_on:
+      - php
+    ports:
+      - "433:433"
+      - "8000:80"
+    networks:
+      - wordpress_demo_network
+    volumes:
+      - .:/var/www
+
+  mysql:
+    image: mysql:5
+    restart: unless-stopped
+    container_name: wordpress_demo_mysql
+    tty: true
+    ports:
+      - "3306:3306"
+    networks:
+      - wordpress_demo_network
+    volumes:
+      - "./docker/mysql/mysql.cnf:/etc/mysql/conf.d/custom.cnf:ro"
+      - "./docker/mysql/dbdata:/var/lib/mysql"
+    environment:
+   
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: 123
+      MYSQL_USER: test

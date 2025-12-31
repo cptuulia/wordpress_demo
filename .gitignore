@@ -1,0 +1,12 @@
+/.idea
+/.idea/*
+
+/.history
+/wp-content/uploads/
+/wp-content/uploads/*
+
+/docker/mysql/dbdata
+/docker/mysql/dbdata/*
+/docker/mysql/dbdata/*
+/docker/nginx/logs/*
+!/docker/nginx/logs/.gitkeep
