@@ -180,7 +180,7 @@
 			?>
 
 		</header><!-- #site-header -->
-<?php get_template_part( 'template-parts/featured-image' ); ?>
+		<?php get_template_part( 'template-parts/featured-image' ); ?>
 		<?php
 		
 		// Output the menu modal.

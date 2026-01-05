@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 function add_stylesheet_to_head() {
    // var_dump(get_stylesheet_uri()); die;

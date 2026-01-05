@@ -18,9 +18,6 @@ if ( has_post_thumbnail() && ! post_password_required() ) {
 	?>
 
 	<div class="wp-demo-heade-image" >
-
-		
-
 			<?php
 			the_post_thumbnail();
 
