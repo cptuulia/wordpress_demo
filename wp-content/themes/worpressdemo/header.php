@@ -29,9 +29,9 @@
 		wp_body_open(); 
 		?>
 
-		<header id="site-header" class="header-footer-group "  >
-
-			<div class="header-inner section-inner wp-demo-header"  >
+		<header id="site-header" class="header-footer-group wp-demo-header"  >
+<img src="/wp-content/plugins/worpressdemo/images/headerImages/1.webp" class="wp-demo-header-image">
+			<div class="header-inner section-inner r"  >
 
 				<div class="header-titles-wrapper">
 
@@ -180,7 +180,7 @@
 			?>
 
 		</header><!-- #site-header -->
-		<?php get_template_part( 'template-parts/featured-image' ); ?>
+				
 		<?php
 		
 		// Output the menu modal.

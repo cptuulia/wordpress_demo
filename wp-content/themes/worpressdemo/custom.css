@@ -1,6 +1,6 @@
  a {
      text-decoration: none !important;
-     color: black;
+     color: black !important;
  }
 
  p::first-letter
@@ -12,20 +12,49 @@
      letter-spacing: normal !important;
  }
 
- .wp-demo-header,
- .wp-demo-heade-image {
+.site-description {
+	color:white !important;
+}
 
-     position: relative;
-
-     width: 70%;
-     background-color: beige;
-     margin: auto;
-     max-width: 1000px;
- }
-
+#site-content{
+    min-height:300px !important;
+}
  .wp-demo-header {
-     padding: 1em;
+     width: 100%;
+     margin: auto;
+	 margin:0px;
+	 padding:0px !important;
+	 position:relative;
  }
+  .custom-logo{
+	width:350px !important;
+		margin-left:20px !important;
+		background-color:rgba(255, 255, 255, 0.5);
+		padding:10px;
+		border-radius:10px;
+	
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-logo{
+	width:250px !important;
+	position:absolute;
+	top:10px;
+	left:10px;
+			background-color:transparent;
+}
+ }
+
+ 
+ .wp-demo-header-image {
+     width: 100%;
+   
+ }
+.header-inner {
+	position:absolute !important;
+	top:0px;
+	left:0px;
+}
 
  .wp-demo-footer {
      background-image: url("/wp-content/plugins/worpressdemo/images/forest.svg");
