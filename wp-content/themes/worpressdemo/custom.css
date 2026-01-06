@@ -7,10 +7,12 @@
 
     p::first-letter {
         color: black !important;
-        font-size: 21px !important;
+        font-size: 30px !important;
         font-weight: normal !important;
         font-family: NonBreakingSpaceOverride, "Hoefler Text", "Noto Serif", Garamond, "Times New Roman", serif !important;
         letter-spacing: normal !important;
+			line-height:20px;
+			
     }
 
 
