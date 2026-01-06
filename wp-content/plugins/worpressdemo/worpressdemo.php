@@ -14,6 +14,7 @@ class worpressdemo {
        
 
         add_shortcode('worpressdemo',  [$this,'worpressdemo_shortcode']);
+         add_shortcode('worpressdemo_header_image',  [$this,'headerImage']);
        
     }
 
@@ -28,6 +29,16 @@ class worpressdemo {
         echo 'worpressdemo test';
     }
 
+    function headerImage() {
+        global $post;
+        //echo  $post->post_name;
+        $url = match($post->post_name) {
+            'mollie-payments' => '/wp-content/plugins/worpressdemo/images/headerImages/2.webp',
+             default => '/wp-content/plugins/worpressdemo/images/headerImages/1.webp'
+        };
+        echo $url;
+
+    }
 
 
 }

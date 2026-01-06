@@ -30,7 +30,8 @@
 		?>
 
 		<header id="site-header" class="header-footer-group wp-demo-header"  >
-<img src="/wp-content/plugins/worpressdemo/images/headerImages/1.webp" class="wp-demo-header-image">
+			
+			<img src="<?php do_shortcode('[worpressdemo_header_image]'); ?>" class="wp-demo-header-image">
 			<div class="header-inner section-inner r"  >
 
 				<div class="header-titles-wrapper">

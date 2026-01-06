@@ -2,7 +2,7 @@
 
     a {
         text-decoration: none !important;
-        color: black !important;
+        color: #3A4563 !important;
     }
 
     p::first-letter {
@@ -13,6 +13,10 @@
         letter-spacing: normal !important;
     }
 
+.menu-item,
+.wp-block-heading{
+	color:#3A4563;
+}
     .wp-demo-header-titles {
         margin: auto;
     }
@@ -139,4 +143,4 @@
         font-weight: normal !important;
 
         letter-spacing: normal !important;
-    }
+    }   
