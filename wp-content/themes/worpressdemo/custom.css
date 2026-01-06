@@ -18,14 +18,24 @@
 	color:#3A4563;
 }
 
-.menu-item a
+.wp-demo_menu_blue a
 {
-	color: grey !important;
+	color:#3A4563;
 }
 
-.menu-item a:hover{
+.wp-demo_menu_white a
+{
 	color: white !important;
 }
+
+.wp-demo_menu_blue a:hover{
+	color: white !important;
+}
+
+.wp-demo_menu_white a:hover{
+	color: gray!important;
+}
+
 
     .wp-demo-header-titles {
         margin: auto;

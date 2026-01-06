@@ -87,7 +87,7 @@
 
 							<nav class="primary-menu-wrapper" aria-label="<?php echo esc_attr_x( 'Horizontal', 'menu', 'twentytwenty' ); ?>">
 
-								<ul class="primary-menu reset-list-style">
+								<ul class="primary-menu <?php do_shortcode('[worpressdemo_menu_class]')?> reset-list-style">
 
 								<?php
 								if ( has_nav_menu( 'primary' ) ) {
