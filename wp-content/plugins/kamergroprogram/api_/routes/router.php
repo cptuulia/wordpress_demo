@@ -1,0 +1,16 @@
+<?php
+
+use Kamergro\Plugins\Di\Factory;
+
+$di = Factory::getDi();
+$router = $di->getShared('router');
+
+//$router->setBasePath('/web_backend_test_catering_api');
+
+require_once __DIR__ . '/../routes/routes.php';
+
+$router->set404(function () {
+    throw new \Kamergro\Plugins\Http\Exceptions\NotFound(['error' => 'Route not defined']);
+});
+
+return $router;

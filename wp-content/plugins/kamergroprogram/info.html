@@ -1,0 +1,106 @@
+<pre>
+
+Database:
+
+SET foreign_key_checks = 0;
+#################################################################
+# kamergro_program_category
+#################################################################
+
+DROP TABLE if EXISTS kamergro_program_kamergro_program_category;
+CREATE TABLE `kamergro_program_category` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `kamergro_program_category`
+  ADD PRIMARY KEY (`id`);
+ALTER TABLE `kamergro_program_category`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+#################################################################
+# kamergro_program_item
+#################################################################
+
+DROP TABLE if EXISTS kamergro_program_item;
+CREATE TABLE `kamergro_program_item` (
+  `id` int(11) NOT NULL,
+  `category_id` int(11) NOT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `text` mediumtext DEFAULT NULL,
+  `thumbnail` varchar(200) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `kamergro_program_item`
+ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `kamergro_program_item`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+#################################################################
+# kamergro_program_item_media
+#################################################################
+
+DROP TABLE if EXISTS kamergro_program_item_media;
+CREATE TABLE `kamergro_program_item_media` (
+  `id` int(11) NOT NULL,
+  `item_id` int(11) DEFAULT NULL,
+  `type` varchar(45) DEFAULT NULL,
+  `name` varchar(500) DEFAULT NULL,
+  `text` varchar(500) DEFAULT NULL,
+  `url` varchar(200) DEFAULT NULL,
+  `ordering` varchar(45) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `kamergro_program_item_media`
+ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `kamergro_program_item_media`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+
+#################################################################
+# kamergro_program_slogan_category
+#################################################################
+
+DROP TABLE if EXISTS kamergro_program_slogan_category;
+  CREATE TABLE `kamergro_program_slogan_category` (
+  `id` int(11) NOT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+ALTER TABLE `kamergro_program_slogan_category`
+ADD PRIMARY KEY (`id`);
+ALTER TABLE `kamergro_program_slogan_category`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+
+#################################################################
+# kamergro_program_slogan
+#################################################################
+
+DROP TABLE if EXISTS kamergro_program_slogan;
+CREATE TABLE `kamergro_program_slogan` (
+  `id` int(11) NOT NULL,
+  `category_id` int(11) DEFAULT NULL,
+  `text` varchar(500) DEFAULT NULL,
+  `ordering` varchar(45) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `kamergro_program_slogan`
+ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `kamergro_program_slogan`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+SET foreign_key_checks = 1;
+</pre>

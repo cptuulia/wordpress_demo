@@ -34,6 +34,7 @@ class worpressdemo {
         //echo  $post->post_name;
         $url = match($post->post_name) {
             'mollie-payments' => '/wp-content/plugins/worpressdemo/images/headerImages/2.webp',
+            'festival-program' => '/wp-content/plugins/worpressdemo/images/headerImages/3.webp',
              default => '/wp-content/plugins/worpressdemo/images/headerImages/1.webp'
         };
         echo $url;

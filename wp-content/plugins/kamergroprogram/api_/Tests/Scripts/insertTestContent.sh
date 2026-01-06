@@ -1,0 +1,1 @@
+mysql --defaults-extra-file=/var/www/wp-content/plugins/kamergroprogram/api_/config/mysq.cnf  kamermuizek_groningen_db_name /var/www/wp-content/plugins/kamergroProgram/api_/Tests/Scripts/sql/testContent.sql

@@ -1,0 +1,21 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method Kamergro\\\\Plugins\\\\Db\\\\Connection\\\\IConnection\\:\\:getPassword\\(\\)\\.$#"
+			count: 1
+			path: Kamergro/Plugins/Db/Db.php
+
+		-
+			message: "#^Call to an undefined method Kamergro\\\\Plugins\\\\Db\\\\Connection\\\\IConnection\\:\\:getUsername\\(\\)\\.$#"
+			count: 1
+			path: Kamergro/Plugins/Db/Db.php
+
+		-
+			message: "#^Method Kamergro\\\\Plugins\\\\Db\\\\Db\\:\\:getLastInsertedId\\(\\) should return int but returns string\\|false\\.$#"
+			count: 1
+			path: Kamergro/Plugins/Db/Db.php
+
+		-
+			message: "#^Access to an undefined property Kamergro\\\\Plugins\\\\Di\\\\Injectable\\:\\:\\$di\\.$#"
+			count: 1
+			path: Kamergro/Plugins/Di/Injectable.php

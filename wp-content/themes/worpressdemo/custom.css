@@ -13,10 +13,20 @@
         letter-spacing: normal !important;
     }
 
-.menu-item,
+
 .wp-block-heading{
 	color:#3A4563;
 }
+
+.menu-item a
+{
+	color: grey !important;
+}
+
+.menu-item a:hover{
+	color: white !important;
+}
+
     .wp-demo-header-titles {
         margin: auto;
     }
