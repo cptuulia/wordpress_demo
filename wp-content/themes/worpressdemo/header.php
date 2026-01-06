@@ -55,7 +55,7 @@
 
 					<?php } ?>
 
-					<div class="header-titles" >
+					<div class="header-titles wp-demo-header-titles" >
 
 						<?php
 							// Site title or logo.

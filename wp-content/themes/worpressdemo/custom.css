@@ -1,94 +1,132 @@
- a {
-     text-decoration: none !important;
-     color: black !important;
- }
+    /* file in the repo wp-content/themes/worpressdemo/custom.css */
 
- p::first-letter
-  {
-     color: black !important;
-     font-size: 21px !important;
-     font-weight: normal !important;
-     font-family: NonBreakingSpaceOverride, "Hoefler Text", "Noto Serif", Garamond, "Times New Roman", serif !important;
-     letter-spacing: normal !important;
- }
+    a {
+        text-decoration: none !important;
+        color: black !important;
+    }
 
-.site-description {
-	color:white !important;
-}
+    p::first-letter {
+        color: black !important;
+        font-size: 21px !important;
+        font-weight: normal !important;
+        font-family: NonBreakingSpaceOverride, "Hoefler Text", "Noto Serif", Garamond, "Times New Roman", serif !important;
+        letter-spacing: normal !important;
+    }
 
-#site-content{
-    min-height:300px !important;
-}
- .wp-demo-header {
-     width: 100%;
-     margin: auto;
-	 margin:0px;
-	 padding:0px !important;
-	 position:relative;
- }
-  .custom-logo{
-	width:350px !important;
-		margin-left:20px !important;
-		background-color:rgba(255, 255, 255, 0.5);
-		padding:10px;
-		border-radius:10px;
-	
-}
+    .wp-demo-header-titles {
+        margin: auto;
+    }
 
-@media only screen and (max-width: 768px) {
-    .custom-logo{
-	width:250px !important;
-	position:absolute;
-	top:10px;
-	left:10px;
-			background-color:transparent;
-}
- }
+    .menu-modal-inner {
+        z-index: 10000;
+    }
 
- 
- .wp-demo-header-image {
-     width: 100%;
-   
- }
-.header-inner {
-	position:absolute !important;
-	top:0px;
-	left:0px;
-}
 
- .wp-demo-footer {
-     background-image: url("/wp-content/plugins/worpressdemo/images/forest.svg");
-     background-repeat: repeat-x;
-     border: none;
-     height: 200px;
-     padding: 12px;
-     padding-top: 150px;
-     margin: 0px;
-     !important;
+    @media only screen and (max-width: 768px) {
+        .wp-demo-header-titles {
+            margin-top: -20px;
+        }
+    }
 
- }
+    @media only screen and (min-width: 1000px) {
+        .site-description {
+            display: block !important;
+            color: white !important;
+            font-size: 3em;
+        }
+    }
 
- .wp-demo-footer img {
-     float: left;
- }
+    @media only screen and (max-width: 999px) {
+        .site-description {
+            display: block !important;
+            color: white !important;
+            font-size: 3em;
+        }
+    }
 
- .wp-demo-footer p {
-    float: left;
- }
- .wp-demo-footer a {
-     margin: 0px;
-     margin-top: -5px;
-     margin-left: 20px;
-     font-size: 15px;
-     color: #3A4563;
-     padding: 0px
- }
+    @media only screen and (max-width: 767px) {
+        .site-description {
+            display: block !important;
+            color: white !important;
+            font-size: 1.5em;
+            z-index: 10;
+        }
+    }
 
-   .wp-demo-footer p::first-letter
-  {
-     font-size: 18px !important;
-color: #3A4563 !important;
-     font-weight: normal !important;
-     
-     letter-spacing: normal !important;
- }
+    #site-content {
+        min-height: 300px !important;
+    }
+
+
+
+    .wp-demo-header {
+        width: 100%;
+        margin: auto;
+        margin: 0px;
+        padding: 0px !important;
+        position: relative;
+        z-index: 20;;
+    }
+
+    .custom-logo {
+        width: 350px !important;
+        margin-left: 20px !important;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        border-radius: 10px;
+        display: none;
+
+    }
+
+    @media only screen and (min-width: 300px) {
+        .custom-logo {
+            display: none !important;
+        }
+    }
+
+    .wp-demo-header-image {
+        width: 100%;
+
+    }
+
+    .header-inner {
+        position: absolute !important;
+        top: 0px;
+        left: 0px;
+    }
+
+    .wp-demo-footer {
+        background-image: url("/wp-content/plugins/worpressdemo/images/forest.svg");
+        background-repeat: repeat-x;
+        border: none;
+        height: 200px;
+        padding: 12px;
+        padding-top: 150px;
+        margin: 0px !important;
+
+    }
+
+    .wp-demo-footer img {
+        float: left;
+    }
+
+    .wp-demo-footer p {
+        float: left;
+    }
+
+    .wp-demo-footer a {
+        margin: 0px;
+        margin-top: -5px;
+        margin-left: 20px;
+        font-size: 15px;
+        color: #3A4563;
+        padding: 0px
+    }
+
+    .wp-demo-footer p::first-letter {
+        font-size: 18px !important;
+        color: #3A4563 !important;
+        font-weight: normal !important;
+
+        letter-spacing: normal !important;
+    }
