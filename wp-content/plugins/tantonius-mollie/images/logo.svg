@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="91.313889mm"
+   height="9.8136425mm"
+   viewBox="0 0 91.313889 9.8136427"
+   version="1.1"
+   id="svg1320"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1317">
+    <linearGradient
+       id="linearGradient524">
+      <stop
+         style="stop-color:#3a4463;stop-opacity:1;"
+         offset="0"
+         id="stop520" />
+      <stop
+         style="stop-color:#3a4463;stop-opacity:0;"
+         offset="1"
+         id="stop522" />
+    </linearGradient>
+    <rect
+       x="140.99165"
+       y="379.43341"
+       width="568.1134"
+       height="244.66199"
+       id="rect1440" />
+    <linearGradient
+       xlink:href="#linearGradient524"
+       id="linearGradient526"
+       x1="142.43712"
+       y1="410.15552"
+       x2="490.20468"
+       y2="410.15552"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-49.151215,-120.66908)">
+    <g
+       aria-label="T"
+       transform="matrix(0.27293608,0,-0.05681076,0.17011527,33.970085,51.289213)"
+       id="text1438-1-4"
+       style="font-size:96px;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1440);fill:#3a4463;fill-opacity:1">
+      <path
+         d="m 471.01732,413.93977 -295.80638,-0.27908 1.91068,50.86327 -4.50532,0.203 -2.08131,-50.758 -28.76364,-0.0793 1.18201,-6.04932 332.2457,0.60254 z"
+         id="path2829-5-1"
+         style="fill:url(#linearGradient526);fill-opacity:1;stroke-width:0.931089" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.5285px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3a4463;fill-opacity:1;stroke-width:0.224256"
+       x="83.660339"
+       y="158.31009"
+       id="text2834-3-8"
+       transform="matrix(1.2170781,0,-0.27439037,0.82163995,0,0)"><tspan
+         id="tspan2832-5-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9603px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3a4463;fill-opacity:1;stroke-width:0.224256"
+         x="83.660339"
+         y="158.31009">ANTONIUS</tspan></text>
+  </g>
+</svg>

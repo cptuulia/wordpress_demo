@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="269px"
+   height="199px"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   id="svg9"
+   sodipodi:docname="thanks.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.04"
+     inkscape:cx="134.55882"
+     inkscape:cy="69.852941"
+     inkscape:window-width="1920"
+     inkscape:window-height="971"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <g
+     id="g3">
+    <path
+       style="opacity:1"
+       fill="#030303"
+       d="M 167.5,28.5 C 173.955,26.9131 180.289,27.2465 186.5,29.5C 198.797,37.1856 201.964,47.8523 196,61.5C 186.23,80.2724 172.563,95.6057 155,107.5C 139.97,96.8034 127.303,83.8034 117,68.5C 115.337,63.5109 113.67,58.5109 112,53.5C 110.309,41.7149 114.809,33.2149 125.5,28C 132.355,26.9653 139.022,27.632 145.5,30C 149.358,32.3581 152.358,35.5248 154.5,39.5C 157.942,34.7198 162.276,31.0531 167.5,28.5 Z"
+       id="path3" />
+  </g>
+  <g
+     id="g5">
+    <path
+       style="opacity:1"
+       fill="#030303"
+       d="M 141.5,120.5 C 145.841,122.668 150.508,124.168 155.5,125C 163.493,125.5 171.493,125.666 179.5,125.5C 180.458,125.953 181.292,126.619 182,127.5C 183.643,132.428 182.143,135.928 177.5,138C 167.083,141.141 156.416,142.308 145.5,141.5C 142.645,140.197 139.645,140.197 136.5,141.5C 151.269,146.735 166.269,148.401 181.5,146.5C 192.231,141.472 203.231,136.972 214.5,133C 217.833,132.333 221.167,132.333 224.5,133C 226.378,138.034 225.044,142.034 220.5,145C 206.401,153.717 191.734,161.383 176.5,168C 158.167,168.667 139.833,168.667 121.5,168C 114.617,164.389 107.284,162.556 99.5,162.5C 97.5819,161.132 95.4152,160.132 93,159.5C 85.6156,147.391 78.7823,135.058 72.5,122.5C 82.3267,118.054 92.3267,113.887 102.5,110C 107.076,108.524 111.743,108.19 116.5,109C 124.855,112.845 133.188,116.678 141.5,120.5 Z"
+       id="path5" />
+  </g>
+  <g
+     id="g6">
+    <path
+       style="opacity:1"
+       fill="#040404"
+       d="M 69.5,122.5 C 76.7446,136.663 84.7446,150.329 93.5,163.5C 93.9617,165.757 94.9617,167.757 96.5,169.5C 89.3332,174.92 81.6665,179.587 73.5,183.5C 62.4705,165.951 51.8038,148.117 41.5,130C 48.8274,124.684 56.6608,120.184 65,116.5C 66.743,118.32 68.243,120.32 69.5,122.5 Z"
+       id="path6" />
+  </g>
+</svg>
