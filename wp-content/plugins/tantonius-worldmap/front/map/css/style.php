@@ -17,7 +17,7 @@
         #tantoniusWorldMapCountryListButton {
             display: block;
             width: 100%;
-            background-color: #B10007;
+            background-color: #3A4563;
             padding: 5px;
             border-radius: 5px;
             color: white;
@@ -34,7 +34,7 @@
     margin-top: 10px;
     max-width: 100%;
     overflow: hidden;
-    background-color: #B10007;
+    background-color: #3A4563;
     padding: 10px;
     border-radius: 10px;
     width: 100%;
@@ -62,7 +62,7 @@
 
   .tantonius_world_map_country_list a:hover {
     color: white;
-    background-color: #757575 ;
+    background-color: #E3D499 ;
   }
 
   @media (max-width: 768px) {
@@ -90,7 +90,7 @@
   }
 
   .countryArea {
-    fill: #B10007;
+    fill: #3A4563;
     stroke: #FFFFFF;
     stroke-width: 0.05;
     stroke-miterlimit: 10;
@@ -104,7 +104,7 @@
   <?php foreach (TantoniusMap::activeCountries() as $country): ?>
     g#<?php echo $country['wm_country'] ?> *,
   <?php endforeach ?>dummy {
-    fill: #757575 !important;
+    fill: darkgray !important;
   }
 
 
@@ -112,7 +112,7 @@
   <?php foreach (TantoniusMap::activeCountries() as $country): ?>
     g#<?php echo $country['wm_country'] ?>:hover *,
   <?php endforeach ?>dummy {
-    fill: #dbcdab !important;
+    fill: #E3D499 !important;
     cursor: pointer;
   }
 
