@@ -151,8 +151,12 @@
     flex-wrap: wrap;
     border: 3px solid #31364f;
     align-items: flex-start;
+    font-family:Arial, Helvetica, sans-serif;
   }
 
+   .info-box .close {
+    cursor: pointer;
+   }
   .info-box.center-it {
     margin: 0 auto;
     left: 0;

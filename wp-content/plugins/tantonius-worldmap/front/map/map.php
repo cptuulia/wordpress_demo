@@ -31,12 +31,12 @@ require_once __DIR__ . '/../../lib/TantoniusMap.php';
 
     <div class="info-box" style="display: none;">
       <strong class="country">
-        <span class="fill"></span><span class="close"><i class="fas fa-times"></i></span>
+        <span class="fill"></span><span class="close">x</span>
       </strong>
       <div class="content">
         <a href="#" class = "tantoniusWorldMapLink">  
           <img>
-           <p style ="text-transform: none !important; color:red;">Read More</p>
+          <small>Read More</small> 
         </a>
        
       </div>
