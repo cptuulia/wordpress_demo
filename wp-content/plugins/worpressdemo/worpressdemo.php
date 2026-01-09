@@ -47,6 +47,7 @@ class worpressdemo
         global $post;
         $class = match ($post->post_name) {
             'festival-program' =>  'wp-demo_menu_white',
+             'world-map' =>  'wp-demo_menu_white',
             default =>  'wp-demo_menu_blue'
         };
         

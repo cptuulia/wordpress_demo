@@ -36,7 +36,9 @@ require_once __DIR__ . '/../../lib/TantoniusMap.php';
       <div class="content">
         <a href="#" class = "tantoniusWorldMapLink">  
           <img>
+           <p style ="text-transform: none !important; color:red;">Read More</p>
         </a>
+       
       </div>
     </div>
 

@@ -201,7 +201,8 @@
 		 */
 		openCountryPage(link, thisObj) {
 			if (thisObj.enableOpenCountryPageClick) {
-				window.location.href = jQuery(link).attr('href');
+				let url = jQuery(link).attr('href');
+				window.open(url, '_blank').focus();
 			}
 		}
 	}
