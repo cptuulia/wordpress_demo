@@ -37,6 +37,8 @@ class worpressdemo
             'mollie-payments' => '/wp-content/plugins/worpressdemo/images/headerImages/2.webp',
             'festival-program' => '/wp-content/plugins/worpressdemo/images/headerImages/3.webp',
             'world-map' => '/wp-content/plugins/worpressdemo/images/headerImages/4.webp',
+            'other-products' => '/wp-content/plugins/worpressdemo/images/headerImages/5.webp',
+            'match-tools' => '/wp-content/plugins/worpressdemo/images/headerImages/6.webp',
             default => '/wp-content/plugins/worpressdemo/images/headerImages/1.webp'
         };
         echo $url;
@@ -48,6 +50,7 @@ class worpressdemo
         $class = match ($post->post_name) {
             'festival-program' =>  'wp-demo_menu_white',
              'world-map' =>  'wp-demo_menu_white',
+             'other-products' =>  'wp-demo_menu_white',
             default =>  'wp-demo_menu_blue'
         };
         
