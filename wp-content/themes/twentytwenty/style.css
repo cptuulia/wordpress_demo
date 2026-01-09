@@ -2811,19 +2811,7 @@ h2.entry-title {
 	text-align: right;
 }
 
-.has-drop-cap:not(:focus)::first-letter {
-	color: #cd2653;
-	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 5.1em;
-	font-weight: 800;
-	margin: 0.05em 0.1em 0 0;
-}
 
-.has-drop-cap:not(:focus)::first-letter::after {
-	content: "";
-	display: table;
-	clear: both;
-}
 
 .has-drop-cap:not(:focus)::after {
 	padding: 0;
@@ -2832,7 +2820,7 @@ h2.entry-title {
 
 /* Block Font Families ----------------------- */
 
-.has-drop-cap:not(:focus)::first-letter,
+
 .entry-content .wp-block-archives,
 .entry-content .wp-block-categories,
 .entry-content .wp-block-cover-image,
@@ -2846,7 +2834,7 @@ h2.entry-title {
 
 @supports ( font-variation-settings: normal ) {
 
-	.has-drop-cap:not(:focus)::first-letter,
+	
 	.entry-content .wp-block-archives,
 	.entry-content .wp-block-categories,
 	.entry-content .wp-block-latest-posts,

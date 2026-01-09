@@ -19,7 +19,10 @@
 .wp-block-heading{
 	color:#3A4563;
 }
-
+.wp-demo_menu_blue,
+.wp-demo_menu_white{
+	font-weight:bold !important;
+}
 .wp-demo_menu_blue a
 {
 	color:#3A4563;

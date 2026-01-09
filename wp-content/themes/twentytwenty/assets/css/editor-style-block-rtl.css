@@ -127,7 +127,6 @@ Inter variable font. Usage:
 .editor-styles-wrapper h4,
 .editor-styles-wrapper h5,
 .editor-styles-wrapper h6,
-.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter,
 .editor-styles-wrapper cite,
 .editor-styles-wrapper figcaption,
 .editor-styles-wrapper .wp-caption-text {
@@ -144,7 +143,6 @@ Inter variable font. Usage:
 	.editor-styles-wrapper h4,
 	.editor-styles-wrapper h5,
 	.editor-styles-wrapper h6,
-	.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter,
 	.editor-styles-wrapper cite,
 	.editor-styles-wrapper figcaption,
 	.editor-styles-wrapper .wp-caption-text {
@@ -326,12 +324,7 @@ Inter variable font. Usage:
 
 /* DROP CAP */
 
-.editor-styles-wrapper .has-drop-cap:not(:focus)::first-letter {
-	color: #cd2653;
-	font-size: 5.1em;
-	font-weight: 800;
-	margin: 0.05em 0 0 0.1em;
-}
+
 
 
 /* Monospace --------------------------------- */
