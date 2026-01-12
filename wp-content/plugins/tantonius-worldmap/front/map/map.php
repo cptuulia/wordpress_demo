@@ -42,6 +42,7 @@ require_once __DIR__ . '/../../lib/TantoniusMap.php';
       </div>
     </div>
 
+    <img src="/wp-content/plugins/tantonius-worldmap/images/worlmapMobileImage.png" id = "worlmapMobileImage">
     <svg
         version="1.1" 
         id="Layer_1" 

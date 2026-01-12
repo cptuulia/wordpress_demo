@@ -2,6 +2,14 @@
 	class TantoniusWorldMap {
 
 		constructor() {
+			
+				jQuery('#tantoniusWorldMapCountryListButton').on('click', function() {
+				
+				let display = jQuery('.tantonius_world_map_country_list').css('display');
+				display = display == 'none' ? 'block' : 'none';
+
+				 jQuery('.tantonius_world_map_country_list').css('display', display);
+			})
 			this.screenWidth = jQuery(window).outerWidth();
 			this.screenHeight = jQuery(window).outerHeight();
 			this.dataArray = <?php echo (json_encode(TantoniusMap::activeCountries())); ?>;
@@ -9,6 +17,7 @@
 			// this.panZoomInstance = undefined;
 			this.initializeEvents(this);
 			this.enableOpenCountryPageClick = false;
+			
 		}
 
 		/**
@@ -115,6 +124,7 @@
 		}
 
 		initializeEvents(thisObj) {
+		
 			jQuery(window).on("resize", function() {
 				window.location.reload();
 			});
@@ -149,9 +159,7 @@
 				jQuery('.map-overlay').toggle();
 			})
 
-			jQuery('#tantoniusWorldMapCountryListButton').on('click', function() {
-				jQuery('.tantonius_world_map_country_list').toggle();
-			})
+		
 
 		}
 

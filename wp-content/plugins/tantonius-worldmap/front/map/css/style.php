@@ -8,27 +8,54 @@
     padding: 0px !important;
   }
 
+  #worlmapMobileImage {
+    display: none;
+  }
 
   #tantoniusWorldMapCountryListButton {
-      display: none;
+    display: none;
   }
-   @media only screen and (max-width: 768px) {
-     
-        #tantoniusWorldMapCountryListButton {
-            display: block;
-            width: 100%;
-            background-color: #3A4563;
-            padding: 5px;
-            border-radius: 5px;
-            color: white;
-            margin-bottom: 10px;
-            margin-top: 10px;
-        }
 
-        #tantoniusWorldMapCountryListButton img {
-            width: 10%;
-        }
+  @media only screen and (max-width: 768px) {
+
+    .worldMapWrapper .mapSvgBackground {
+      display: none;
     }
+
+    #worlmapMobileImage {
+      display: block;
+      width: 100%;
+    }
+  .tantonius_world_map_country_list {
+   
+    padding-left: 0px;
+  }
+
+    #tantoniusWorldMapCountryListButton {
+      display: block;
+      width: 100%;
+      background-color: #3A4563;
+      padding: 5px;
+      border-radius: 5px;
+      color: white;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      height: 50px;
+    }
+
+    #tantoniusWorldMapCountryListButton img {
+      height: 100%;
+      float: left;
+    }
+
+    #tantoniusWorldMapCountryListButton div {
+      margin-left: 10px;
+      margin-top: 5px;
+      float: left;
+    }
+
+    
+  }
 
   .tantonius_world_map_country_list {
     margin-top: 10px;
@@ -51,7 +78,7 @@
     margin-right: 0px;
     border: 5px;
     border-radius: 5px;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
     margin-left: 5px;
     width: 23%;
     height: 20px;
@@ -62,7 +89,7 @@
 
   .tantonius_world_map_country_list a:hover {
     color: white;
-    background-color: #E3D499 ;
+    background-color: #E3D499;
   }
 
   @media (max-width: 768px) {
@@ -81,6 +108,12 @@
       height: 30px;
       background-color: white;
     }
+
+     .tantonius_world_map_country_list a {
+   
+    margin-left: 0px;
+   
+  }
 
   }
 
@@ -101,16 +134,14 @@
 
 
   /* Selected countries */
-  <?php foreach (TantoniusMap::activeCountries() as $country): ?>
-    g#<?php echo $country['wm_country'] ?> *,
+  <?php foreach (TantoniusMap::activeCountries() as $country): ?>g#<?php echo $country['wm_country'] ?>*,
   <?php endforeach ?>dummy {
     fill: darkgray !important;
   }
 
 
   /* Hover */
-  <?php foreach (TantoniusMap::activeCountries() as $country): ?>
-    g#<?php echo $country['wm_country'] ?>:hover *,
+  <?php foreach (TantoniusMap::activeCountries() as $country): ?>g#<?php echo $country['wm_country'] ?>:hover *,
   <?php endforeach ?>dummy {
     fill: #E3D499 !important;
     cursor: pointer;
@@ -151,12 +182,13 @@
     flex-wrap: wrap;
     border: 3px solid #31364f;
     align-items: flex-start;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-   .info-box .close {
+  .info-box .close {
     cursor: pointer;
-   }
+  }
+
   .info-box.center-it {
     margin: 0 auto;
     left: 0;

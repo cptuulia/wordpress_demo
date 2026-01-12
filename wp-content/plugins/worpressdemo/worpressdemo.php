@@ -16,6 +16,7 @@ class worpressdemo
         add_shortcode('worpressdemo',  [$this, 'worpressdemo_shortcode']);
         add_shortcode('worpressdemo_header_image',  [$this, 'headerImage']);
          add_shortcode('worpressdemo_menu_class',  [$this, 'menuClass']);
+             add_shortcode('worpressdemo_translations',  [$this, 'translations']);
     }
 
 
@@ -57,5 +58,13 @@ class worpressdemo
         
         echo $class;
     }
+
+    function translations() {
+        ob_start();
+        include 'components/googleTranslations.php';
+        $content = ob_get_clean();
+    //    echo $content;
+        return  $content;
+    }   
 }
 new worpressdemo();

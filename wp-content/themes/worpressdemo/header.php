@@ -181,7 +181,8 @@
 			?>
 
 		</header><!-- #site-header -->
-				
+		<div id='google_translate_element'></div>
+				<?php echo do_shortcode('[worpressdemo_translations]'); ?>
 		<?php
 		
 		// Output the menu modal.
