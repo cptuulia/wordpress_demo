@@ -116,9 +116,9 @@
 
             jQuery('#taMollieRecurringPaymentFormErrorMessages').hide();
             jQuery('#taMollieRecurringPaymentFormEmailExistsError').hide();
-            jQuery("html, body").animate({
-                scrollTop: 0
-            }, "slow");
+           // jQuery("html, body").animate({
+              //  scrollTop: 0
+            //}, "slow");
 
             let isValid = true;
             let textFields = ['senderFirstName', 'senderLastName', 'senderEmail'];
@@ -162,6 +162,12 @@
             });
 
 
+              if (isValid) {
+                            thisObj.showConfirmationDiv(thisObj);
+                        } else {
+                            jQuery('#taMollieRecurringPaymentFormErrorMessages').show();
+                        }
+            return;
 
             // Check if e-mail is in use by ajax
 
