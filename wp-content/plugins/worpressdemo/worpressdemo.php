@@ -39,6 +39,7 @@ class worpressdemo
             'world-map' => '/wp-content/plugins/worpressdemo/images/headerImages/4.webp',
             'other-products' => '/wp-content/plugins/worpressdemo/images/headerImages/5.webp',
             'match-tools' => '/wp-content/plugins/worpressdemo/images/headerImages/6.webp',
+            'slideshow' => '/wp-content/plugins/worpressdemo/images/headerImages/7.webp',
             default => '/wp-content/plugins/worpressdemo/images/headerImages/1.webp'
         };
         echo $url;
