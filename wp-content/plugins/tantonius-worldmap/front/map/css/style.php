@@ -133,20 +133,22 @@
 
 
 
+
   /* Selected countries */
-  <?php foreach (TantoniusMap::activeCountries() as $country): ?>g#<?php echo $country['wm_country'] ?>*,
+  <?php foreach (TantoniusMap::activeCountries() as $country): ?>
+    g#<?php echo $country['wm_country'] ?> *,
   <?php endforeach ?>dummy {
-    fill: darkgray !important;
+    fill: #757575 !important;
   }
 
 
   /* Hover */
-  <?php foreach (TantoniusMap::activeCountries() as $country): ?>g#<?php echo $country['wm_country'] ?>:hover *,
+  <?php foreach (TantoniusMap::activeCountries() as $country): ?>
+    g#<?php echo $country['wm_country'] ?>:hover *,
   <?php endforeach ?>dummy {
-    fill: #E3D499 !important;
+    fill: #dbcdab !important;
     cursor: pointer;
   }
-
 
 
   .map-control-buttons {

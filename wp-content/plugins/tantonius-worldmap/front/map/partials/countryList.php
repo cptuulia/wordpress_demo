@@ -3,7 +3,7 @@ $countries = TantoniusMap::activeCountries();
 ?>
 <div id="tantoniusWorldMapCountryListButton">
   <img src="/wp-content/plugins/tantonius-worldmap/images/globe.png">
- <div> List of countries</div>
+ <div> Select your country</div>
  <div style="clear:both">s</div>
 </div>
 
