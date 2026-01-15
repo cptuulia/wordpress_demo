@@ -34,12 +34,12 @@
 			thisObj.panZoomInstance = undefined
 
 			thisObj.panZoomInstance = svgPanZoom('.destinations-map svg', {
-				zoomEnabled: true,
+				zoomEnabled: false,
 				controlIconsEnabled: true,
 				fit: true,
 				center: false,
 				minZoom: 0.1,
-				dblClickZoomEnabled: dblClickZoomEnabled,
+				dblClickZoomEnabled: false,
 				preventMouseEventsDefault: true,
 			});
 

@@ -41,6 +41,8 @@ class worpressdemo
             'other-products' => '/wp-content/plugins/worpressdemo/images/headerImages/5.webp',
             'match-tools' => '/wp-content/plugins/worpressdemo/images/headerImages/6.webp',
             'slideshow' => '/wp-content/plugins/worpressdemo/images/headerImages/7.webp',
+              'timesheet' => '/wp-content/plugins/worpressdemo/images/headerImages/8.webp',
+                 'wordpress' => '/wp-content/plugins/worpressdemo/images/headerImages/9.webp',
             default => '/wp-content/plugins/worpressdemo/images/headerImages/1.webp'
         };
         echo $url;
